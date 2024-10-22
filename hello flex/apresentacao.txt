@@ -1,0 +1,11 @@
+Olá! Que legal que você está começando o curso "Praticando CSS com Grid e Flexbox"! Nessa primeira aula, nós nos apresentamos e te contamos um pouco sobre o que vamos aprender. O curso é para você que quer dominar o Flexbox e o Grid, duas ferramentas essenciais para organizar elementos em uma página HTML. Vamos construir um projeto chamado "Culturama", uma página para divulgação de eventos culturais, e você vai aprender a aplicar o Flexbox e o Grid para organizar todos os elementos, como o cabeçalho, banner, categorias, destaques, eventos e rodapé. O projeto será desenvolvido para três telas: mobile (360 pixels), tablets (720 pixels) e desktops (1440 pixels). É importante que você já tenha feito os cursos pré-requisitos para ter uma base sólida e aproveitar ao máximo o curso. No final, você será capaz de posicionar elementos na página com Flexbox e Grid, e aplicar esses conhecimentos em outros projetos! Espero que você goste do curso! 
+
+Que legal que você quer entender melhor a aula usando analogias! Imagine que você está organizando uma festa. Você precisa colocar as mesas, cadeiras, o buffet, a pista de dança e a decoração em um espaço, certo? O Flexbox e o Grid são como ferramentas mágicas que te ajudam a organizar tudo de forma eficiente e bonita. Flexbox é como um grupo de amigos que se sentam em um sofá. Você pode controlar a ordem em que
+
+Que bom que você está pensando em como analisar se aplicou os conceitos da aula corretamente! É muito importante ter essa atitude, pois mostra que você está aprendendo e querendo fazer o melhor. Para te ajudar a analisar, pense em algumas perguntas:
+Consegui organizar os elementos da página de forma que eles fiquem alinhados e com o espaçamento correto em todas as telas?
+Utilizei as propriedades do Flexbox e do Grid de forma eficiente para alcançar o resultado desejado?
+O layout da página está responsivo, ou seja, se adapta bem a diferentes tamanhos de tela?
+O código está organizado e fácil de entender?
+
+Se você conseguir responder sim a todas essas perguntas, significa que você está no caminho certo! Lembre-se que a prática é fundamental para consolidar o aprendizado. Experimente criar layouts diferentes e desafiadores para testar seus conhecimentos. E se tiver alguma dúvida, não hesite em perguntar! 
