@@ -1,0 +1,132 @@
+/* Cabeçalho */
+
+.menu {
+    display: flex; /*transforma em blocos*/
+    justify-content: space-evenly; /*organiza os elementos de forma automatica e responsiva */
+    align-items: center; /*centraliza de cima pra baixo*/
+    flex-wrap: wrap; /*quebra para linha de baixo, destribuindo os elementos */
+    column-gap: 33px; /*espacamento laterais*/
+}
+
+/* Categorias */
+
+.categorias__lista {
+    display: flex; /*comportamento em linha*/
+    flex-direction: column; /*elementos ficam em coluna*/
+    row-gap: .5rem; /*espacamento entre linhas*/
+}
+
+/* Destaques */
+
+.destaques {
+    display: flex; /*elementos na mesma linha*/
+    align-items: center; /*centraliza*/
+    column-gap: 10px;/*espacamento de coluna*/
+}
+
+.destaques__barra {
+    flex-grow: 1; /**/
+}
+
+/* Eventos */
+
+.eventos__lista {
+    display: flex; /*tudo na mesma linha*/
+    flex-wrap: wrap; /*linha e coluna*/
+    column-gap: 1.5rem;/*espacamento entre colunas*/
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.eventos__item {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+/*Agenda ATIVIDADE PARA SABER MAIS */
+
+.agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.agenda__item {
+    flex-grow: 1;
+}
+
+/* Rodapé */ 
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
+}
+
+@media (min-width: 720px) { 
+
+    /* Cabeçalho */
+
+    .menu {
+        column-gap: 75px; /*espacamento lateral*/
+    }
+
+    /* Categorias */
+
+    .categorias__lista {
+        flex-wrap: wrap; /*quebra uma coluna em duas */
+        column-gap: 1.5rem; /*espaco entre as colunas*/
+        row-gap: 1rem; /*espacamento entre linhas*/
+    }
+
+    /* Eventos */
+
+    .eventos__lista {
+        justify-content: end;
+    }
+
+    /*Agenda ATIVIDADE PARA SABER MAIS */
+
+    .agenda__lista {
+        justify-content: end;
+
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    /* Cabeçalho */
+
+    .menu {
+        column-gap: 105px; /*espacamento lateral*/
+        flex-wrap: nowrap; /*bloqueia a quebra de linha*/
+    }
+/*ordem dos elementos na page*/
+    .menu__item:nth-child(1) {/* html*/
+        order:1 ; /* page |culurama*/
+    }
+
+    .menu__item:nth-child(2) {/* html*/
+        order: 3; /* page | programacao*/
+    }
+
+    .menu__item:nth-child(3) { /*html*/
+        order:4 ; /*page | categoria*/
+    }
+
+    .menu__item:nth-child(4) {/*html*/
+        order: 5; /*page | local*/
+    }
+
+    .menu__item:nth-child(5) { /*html*/
+        order: 2; /*page | pesquisa*/
+    }
+
+}
